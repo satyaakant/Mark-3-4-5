@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 1rem;
+}
+hr{
+    margin: 2rem 0rem;
+}
+.container-centre{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+:root{
+    --primary-color:#fcd34d;
+}
+:root{
+    --dark-grey:#fcd34d;
+    --off-white:#d1d5db;
+
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.secondry-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+.no-bullets{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    padding: 0.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.nav-brand{
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 360px;
+}
+
+.section{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.section h3{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+.footer{
+    background-color: #fcd34d;
+    padding: 2rem 1rem;
+    border-top-left-radius: 0.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+.footer .link{
+    color: white;
+}
+.nav-pills{
+    padding-left: 70rem;
+}
+.hero .hero-heading .heading-inverted{
+    color: #fcd34d;
+}
+.head{
+    text-align: center;
+}
+.head .heading-inverted{
+    color: #fcd34d;
+}
