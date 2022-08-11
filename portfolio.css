@@ -3,8 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+
     padding: 1rem;
 }
 hr{
@@ -44,7 +43,7 @@ hr{
 }
 .inline-list{
     display: inline;
-    padding: 0.5rem;
+ 
 }
 .navigation{
     background-color: var(--primary-color);
