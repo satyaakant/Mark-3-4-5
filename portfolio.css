@@ -100,3 +100,6 @@ hr{
 .head .heading-inverted{
     color: #fcd34d;
 }
+ul{
+    padding-left: 0px;
+}
