@@ -35,10 +35,10 @@ hr{
     text-align: center;
 }
 :root{
-    --primary-color:#3b82f6;
+    --primary-color:#f9fafb;
 }
 :root{
-    --dark-grey:#3b82f6;
+    --dark-grey:#e4e4e4;
     --off-white:black;
 
 }
@@ -98,6 +98,7 @@ section
 .section{
     padding: 1rem;
     border-radius: 0.5rem;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
 }
 .section h3{
     text-align: center;
@@ -151,3 +152,46 @@ html{
     object-fit: cover;
     border-radius: 15px;
 }
+.cont{
+    margin: 0px;
+    
+}
+.project{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+    text-align: center;
+}
+.cont {
+    max-width: 1200px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 3rem;
+    font-size: large;
+   
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+
+    padding: 0;
+    margin: 0;
+    
+}
+@media (min-width: 600px) {
+    .project { grid-template-columns: repeat(2 1fr); }
+  }
+  @media (max-width: 400px) {
+    .project { grid-template-rows: repeat(1, 1fr); }
+  }
