@@ -51,13 +51,53 @@ hr{
     background-color: #1ed9c2;
     border-radius: 0.5rem;
     text-align: center;
+     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 36px;
+}
+.primary-link:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+.primary-link:hover::after{
+    opacity: 1;
+    right: 10px;
+}
+.primary-link::after{
+  
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
 }
 .secondry-link{
     color: #1ed9c2;
     border-radius: 0.5rem;
     border: 1px solid #1ed9c2;
-   
+     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 36px;
 }
+.secondry-link::after{
+    content: '»';
+    color: #1ed9c2;
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+.secondry-link:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+.secondry-link:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 .no-bullets{
     list-style: none;
 }
