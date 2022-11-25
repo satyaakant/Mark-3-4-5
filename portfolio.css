@@ -7,7 +7,13 @@ body {
     padding: auto;
     margin: 0%;
   }
-  
+  body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
   body {
       background: linear-gradient(-45deg,  #ee7752, #bd587d, #41788c, #5cbea7);
       background-size: 400% 400%;
@@ -233,12 +239,33 @@ html{
     
 }
 @media (min-width: 600px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
     .project { grid-template-columns: repeat(2 1fr); }
   }
   @media (max-width: 400px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
     .project { grid-template-rows: repeat(1, 1fr); }
   }
-  @media (max-width: 400px) {
+  @media (min-width: 400px) {
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
     button { grid-template-rows: repeat(1, 1fr); }
   }
 .primary-link{
